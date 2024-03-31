@@ -1,6 +1,8 @@
 package com.exemple.CourseService.entity;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -12,6 +14,8 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 public class Course {
+    @Id
+    @GeneratedValue
     private Long SubId;
     private String Name;
     private double Price;
