@@ -6,6 +6,7 @@
       <list>
         <option value="$PROJECT_DIR$/CAU_1/CourseService/pom.xml" />
         <option value="$PROJECT_DIR$/CAU_3/ServiceDiscovery/pom.xml" />
+        <option value="$PROJECT_DIR$/CAU_4/APIGateway/pom.xml" />
       </list>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />

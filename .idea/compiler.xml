@@ -9,11 +9,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="CourseService" />
         <module name="ServiceDiscovery" />
+        <module name="APIGateway" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="APIGateway" options="-parameters" />
       <module name="CourseService" options="-parameters" />
       <module name="ServiceDiscovery" options="-parameters" />
     </option>
